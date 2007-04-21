@@ -1,6 +1,6 @@
 Name:		sparse
 Version:	0.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	A semantic parser of source files
 License:	GPL
 Group:		Development/C
@@ -21,7 +21,7 @@ Sparse is a semantic parser of source files.
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT{,/usr}/bin
 
-%makeinstall_std PREFIX=/usr
+%makeinstall_std PREFIX=%_prefix LIBDIR=%_libdir
 
 %clean
 rm -rf $RPM_BUILD_ROOT
