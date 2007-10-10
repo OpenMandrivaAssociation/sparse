@@ -39,6 +39,6 @@ rm -rf $RPM_BUILD_ROOT
 %_includedir/*
 %_libdir/libsparse.a
 %_libdir/pkgconfig/sparse.pc
-
+%_mandir/man1/*
 
 
