@@ -6,7 +6,6 @@ License:	Open Software License v1.1
 Group:		Development/C
 URL:		http://www.kernel.org/pub/software/devel/sparse/
 Source0:	http://kernel.org/pub/software/devel/sparse/dist/%name-%version.tar.bz2
-Buildroot:	%_tmppath/%name-%version-root
 
 %description
 Sparse, the semantic parser, provides a compiler frontend capable of parsing
