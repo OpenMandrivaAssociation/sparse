@@ -1,6 +1,6 @@
 Name:		sparse
 Version:	0.4.1
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	A semantic parser of source files
 License:	Open Software License v1.1
 Group:		Development/C
