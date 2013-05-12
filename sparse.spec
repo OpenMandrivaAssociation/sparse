@@ -1,12 +1,11 @@
 Name:		sparse
-Version:	0.4.3
-Release:	%mkrel 1
+Version:	0.4.4
+Release:	1
 Summary:	A semantic parser of source files
 License:	Open Software License v1.1
 Group:		Development/C
 URL:		http://www.kernel.org/pub/software/devel/sparse/
 Source0:	http://kernel.org/pub/software/devel/sparse/dist/%name-%version.tar.gz
-Buildroot:	%_tmppath/%name-%version-root
 
 %description
 Sparse, the semantic parser, provides a compiler frontend capable of parsing
@@ -24,16 +23,11 @@ function acquires or releases.
 %make 
 
 %install
-rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT{,/usr}/bin
 
 %makeinstall_std PREFIX=%_prefix LIBDIR=%_libdir
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %files
-%defattr(-,root,root)
 %doc FAQ LICENSE README
 %_bindir/*
 %_includedir/*
