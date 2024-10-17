@@ -4,7 +4,7 @@ Release:	1
 Summary:	A semantic parser of source files
 License:	Open Software License v1.1
 Group:		Development/C
-URL:		http://www.kernel.org/pub/software/devel/sparse/
+URL:		https://www.kernel.org/pub/software/devel/sparse/
 Source0:	http://kernel.org/pub/software/devel/sparse/dist/%name-%version.tar.gz
 
 %description
